@@ -10,8 +10,10 @@
 		A9050C531F50662D00093241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9050C521F50662D00093241 /* AppDelegate.swift */; };
 		A9050C551F50662D00093241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9050C541F50662D00093241 /* ViewController.swift */; };
 		A9050C581F50662D00093241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9050C561F50662D00093241 /* Main.storyboard */; };
-		A9050C5A1F50662D00093241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9050C591F50662D00093241 /* Assets.xcassets */; };
+		A9050C5A1F50662D00093241 /* amerikanskij-bobtejl_imege in Resources */ = {isa = PBXBuildFile; fileRef = A9050C591F50662D00093241 /* amerikanskij-bobtejl_imege */; };
 		A9050C5D1F50662D00093241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9050C5B1F50662D00093241 /* LaunchScreen.storyboard */; };
+		A9050C651F50771500093241 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9050C641F50771500093241 /* Cat.swift */; };
+		A9050C671F507E8B00093241 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9050C661F507E8B00093241 /* Gender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +21,11 @@
 		A9050C521F50662D00093241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9050C541F50662D00093241 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9050C571F50662D00093241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9050C591F50662D00093241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9050C591F50662D00093241 /* amerikanskij-bobtejl_imege */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "amerikanskij-bobtejl_imege"; sourceTree = "<group>"; };
 		A9050C5C1F50662D00093241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9050C5E1F50662D00093241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9050C641F50771500093241 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		A9050C661F507E8B00093241 /* Gender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				A9050C521F50662D00093241 /* AppDelegate.swift */,
 				A9050C541F50662D00093241 /* ViewController.swift */,
+				A9050C641F50771500093241 /* Cat.swift */,
+				A9050C661F507E8B00093241 /* Gender.swift */,
 				A9050C561F50662D00093241 /* Main.storyboard */,
-				A9050C591F50662D00093241 /* Assets.xcassets */,
+				A9050C591F50662D00093241 /* amerikanskij-bobtejl_imege */,
 				A9050C5B1F50662D00093241 /* LaunchScreen.storyboard */,
 				A9050C5E1F50662D00093241 /* Info.plist */,
 			);
@@ -124,7 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9050C5D1F50662D00093241 /* LaunchScreen.storyboard in Resources */,
-				A9050C5A1F50662D00093241 /* Assets.xcassets in Resources */,
+				A9050C5A1F50662D00093241 /* amerikanskij-bobtejl_imege in Resources */,
 				A9050C581F50662D00093241 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9050C671F507E8B00093241 /* Gender.swift in Sources */,
 				A9050C551F50662D00093241 /* ViewController.swift in Sources */,
 				A9050C531F50662D00093241 /* AppDelegate.swift in Sources */,
+				A9050C651F50771500093241 /* Cat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				A9050C631F50662D00093241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

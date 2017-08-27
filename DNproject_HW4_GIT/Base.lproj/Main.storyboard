@@ -112,8 +112,8 @@
                     </view>
                     <connections>
                         <outlet property="FurLenght" destination="jV0-5N-FlA" id="iIG-cN-Tlv"/>
-                        <outlet property="IsHungryLable" destination="pIg-Lf-6ra" id="kbZ-7p-kUF"/>
-                        <outlet property="LastActionLable" destination="ZyE-dy-zyi" id="Ixg-q4-Ney"/>
+                        <outlet property="IsHungryLable" destination="pIg-Lf-6ra" id="P8s-I2-hwL"/>
+                        <outlet property="LastActionLable" destination="ZyE-dy-zyi" id="Tbq-7g-aV5"/>
                         <outlet property="WeightLable" destination="KgH-ab-lMe" id="oOw-rM-9N7"/>
                     </connections>
                 </viewController>
